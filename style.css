@@ -1,0 +1,238 @@
+.site-footer{
+    background-color:#26272b;
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:#737373;
+}
+.site-footer hr{
+    border-top-color:#bbb;
+    opacity:0.5
+}
+.site-footer hr.small{
+    margin:20px 0
+}
+.site-footer h6{
+    color:#fff;
+    font-size:16px;
+    text-transform:uppercase;
+    margin-top:5px;
+    letter-spacing:2px
+}
+.site-footer a{
+    color:#737373;
+}
+.site-footer a:hover{
+    color:#3366cc;
+    text-decoration:none;
+}
+.footer-links{
+    padding-left:0;
+    list-style:none
+}
+.footer-links li{
+    display:block
+}
+.footer-links a{
+    color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover{
+    color:#3366cc;
+    text-decoration:none;
+}
+.footer-links.inline li{
+    display:inline-block
+}
+.site-footer .social-icons{
+    text-align:right
+}
+.site-footer .social-icons a{
+    width:40px;
+    height:40px;
+    line-height:40px;
+    margin-left:6px;
+    margin-right:0;
+    border-radius:100%;
+    background-color:#33353d
+}
+.copyright-text{
+    margin:0
+}
+#div1{
+    position: relative;
+    text-align: center;
+    padding: 15px 0;
+    width: 150px;
+    border: 1px solid black;
+    animation-name: kolorTla;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#div2{
+    position: relative;
+    text-align: center;
+    padding: 15px 0;
+    width: 150px;
+    border: 1px solid black;
+    animation-name: kolorTla;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes kolorTla {
+    from { background-color: teal; width: 600px;}
+    25% { background-color: red; width: 500px;}
+    50% { background-color: purple; width: 400px;}
+    75% { background-color: gray; width: 300px;}
+    to { background-color: green; width: 200px;}
+}
+@-o-keyframes kolorTla {
+    from { background-color: teal; width: 600px;}
+    25% { background-color: red; width: 500px;}
+    50% { background-color: purple; width: 400px;}
+    75% { background-color: gray; width: 300px;}
+    to { background-color: green; width: 200px;}
+}
+@-webkit-keyframes kolorTla {
+    from { background-color: teal; width: 600px;}
+    25% { background-color: red; width: 500px;}
+    50% { background-color: purple; width: 400px;}
+    75% { background-color: gray; width: 300px;}
+    to { background-color: green; width: 200px;}
+}
+@-moz-keyframes kolorTla {
+    from { background-color: teal; width: 600px;}
+    25% { background-color: red; width: 500px;}
+    50% { background-color: purple; width: 400px;}
+    75% { background-color: gray; width: 300px;}
+    to { background-color: green; width: 200px;}
+}
+@-ms-keyframes kolorTla {
+    from { background-color: teal; width: 600px;}
+    25% { background-color: red; width: 500px;}
+    50% { background-color: purple; width: 400px;}
+    75% { background-color: gray; width: 300px;}
+    to { background-color: green; width: 200px;}
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+@-o-keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+@-moz-keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+@-ms-keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+} 
+#div3 {
+    width: 60px;
+    height: 60px;
+    background-color: teal;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes example {
+    0%   {background-color:teal; left:0px; top:0px;}
+    25%  {background-color:purple; left:150px; top:0px;}
+    50%  {background-color:blue; left:150px; top:150px;}
+    75%  {background-color:rgba(0, 128, 0, 0.556); left:0px; top:150px;}
+    100% {background-color:yellow; left:0px; top:0px;}
+}
+@-webkit-keyframes example {
+    0%   {background-color:teal; left:0px; top:0px;}
+    25%  {background-color:purple; left:150px; top:0px;}
+    50%  {background-color:blue; left:150px; top:150px;}
+    75%  {background-color:rgba(0, 128, 0, 0.556); left:0px; top:150px;}
+    100% {background-color:yellow; left:0px; top:0px;}
+}
+@-o-keyframes example {
+    0%   {background-color:teal; left:0px; top:0px;}
+    25%  {background-color:purple; left:150px; top:0px;}
+    50%  {background-color:blue; left:150px; top:150px;}
+    75%  {background-color:rgba(0, 128, 0, 0.556); left:0px; top:150px;}
+    100% {background-color:yellow; left:0px; top:0px;}
+}
+@-ms-keyframes example {
+    0%   {background-color:teal; left:0px; top:0px;}
+    25%  {background-color:purple; left:150px; top:0px;}
+    50%  {background-color:blue; left:150px; top:150px;}
+    75%  {background-color:rgba(0, 128, 0, 0.556); left:0px; top:150px;}
+    100% {background-color:yellow; left:0px; top:0px;}
+}
+@-moz-keyframes example {
+    0%   {background-color:teal; left:0px; top:0px;}
+    25%  {background-color:purple; left:150px; top:0px;}
+    50%  {background-color:blue; left:150px; top:150px;}
+    75%  {background-color:rgba(0, 128, 0, 0.556); left:0px; top:150px;}
+    100% {background-color:yellow; left:0px; top:0px;}
+}
+#divhah{
+    width: 400px;
+    overflow: hidden;
+    background-color: #FFC107;
+    border: 2px solid black;
+    text-align: center;
+    padding: 2px;
+    display: block;
+    margin: 0 auto;
+
+}
+#p {
+    white-space: nowrap;
+    animation: przesun 10s linear infinite;
+    font-size: x-large;
+    margin-top: 10px;
+}
+@keyframes przesun{
+    0% {transform: translateX(0);}
+    100%{ transform: translateX(-200%);}
+}
+span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #e2e2e2;
+    animation: pisz 10s steps(38) infinite;
+    -webkit-animation: pisz 10s steps(38) infinite;
+}
+#pr{
+    position: relative;
+    background-color: #e2e2e2;
+    width: 300px;
+}
+@keyframes pisz{
+    0% {width: 100%;}
+    100% {width: 0%;}
+}
+@-webkit-keyframes pisz{
+    0% {width: 100%;}
+    100% {width: 0%;}
+}
+#gradiencikWPrawo {
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(to right, teal, red);
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
